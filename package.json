@@ -1,0 +1,29 @@
+{
+  "name": "vesync_nodejs",
+  "version": "1.0.0",
+  "description": "API to pull from VeSync Cloud API using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyl421421/vesync_nodejs.git"
+  },
+  "keywords": [
+    "vesync",
+    "VeSync",
+    "smartapi",
+    "etekcity"
+  ],
+  "author": "dyl421421",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyl421421/vesync_nodejs/issues"
+  },
+  "homepage": "https://github.com/dyl421421/vesync_nodejs#readme",
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "utf8": "^3.0.0"
+  }
+}
