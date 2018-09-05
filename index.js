@@ -3,6 +3,12 @@ const utf8 = require('utf8');
 const crypto = require('crypto');
 const BASE_URL = "https://smartapi.vesync.com";
 
+/**
+ *
+ * @param user STRING username of user (usually an email address)
+ * @param pass STRING password of user
+ * @constructor passes username and password to the object and saves it in the object
+ */
 function VesyncApi(user, pass) {
 
     this.username = user;
@@ -11,6 +17,9 @@ function VesyncApi(user, pass) {
 
 }
 
+/**
+ * sets the headers property to the required headers needed to access the api
+ */
 VesyncApi.prototype.getHeaders = function () {
     this.headers = {
         tk: this.account.tk,
@@ -18,6 +27,10 @@ VesyncApi.prototype.getHeaders = function () {
     }
 };
 
+/**
+ * logs in to the API
+ * @returns {Promise< | Object>} the account info to access the API
+ */
 VesyncApi.prototype.login = function () {
     let pass = this.password;
     let user = this.username;
@@ -53,16 +66,24 @@ VesyncApi.prototype.login = function () {
 
 };
 
+/**
+ *
+ * @returns Object contains the data returned from the login containing account details
+ */
 VesyncApi.prototype.getAccount = function () {
     return this.account;
 };
+/// Duplicate function? Not removing as something will probably break
 VesyncApi.prototype.getHeaders = function () {
     this.headers = {
         tk: this.account.tk,
         accountId: this.account.accountID
     }
 };
-
+/**
+ *
+ * @returns {Promise} of devices returned from the API
+ */
 VesyncApi.prototype.getDevices = function () {
     // if (this.devices === undefined) {
     if (true) { // This will update the devices every time
@@ -89,7 +110,10 @@ VesyncApi.prototype.getDevices = function () {
         })
     }
 };
-
+/**
+ *
+ * @param deviceName STRING of deviceName to turn on, the function will find the applicable id and send the request to turn it on
+ */
 VesyncApi.prototype.turnOn = function(deviceName) {
     let headers = this.headers;
     this.getDevices().then(() => {
@@ -104,7 +128,10 @@ VesyncApi.prototype.turnOn = function(deviceName) {
         }
     })
 };
-
+/**
+ *
+ * @param deviceName STRING of deviceName to turn off, the function will find the applicable id and send the request to turn it off
+ */
 VesyncApi.prototype.turnOff = function(deviceName) {
     let headers = this.headers;
     this.getDevices().then(() => {

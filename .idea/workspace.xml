@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ecc8d16-fdce-4b61-b3f9-2af884c2f1f5" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/login.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/babylon" afterDir="false" />
@@ -4772,12 +4773,9 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webapp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -4800,26 +4798,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2626" />
+          <entry key="js" value="4956" />
           <entry key="md" value="45" />
-          <entry key="txt" value="177" />
+          <entry key="txt" value="265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2626" />
-          <entry key="PLAIN_TEXT" value="222" />
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="4948" />
+          <entry key="PLAIN_TEXT" value="310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="5" />
+          <entry key="js" value="6" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="5" />
+          <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -4835,8 +4834,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+            <state relative-caret-position="2244">
+              <caret line="132" column="131" selection-start-line="132" selection-start-column="131" selection-end-line="132" selection-end-column="131" />
             </state>
           </provider>
         </entry>
@@ -4844,22 +4843,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="204">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -4892,11 +4904,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/node_modules/webapp.js" />
         <option value="$PROJECT_DIR$/testing.js" />
-        <option value="$PROJECT_DIR$/webapp.js" />
         <option value="$PROJECT_DIR$/views.js" />
+        <option value="$PROJECT_DIR$/login.js" />
+        <option value="$PROJECT_DIR$/webapp.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -4914,7 +4927,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1908" />
     <option name="width" value="1941" />
     <option name="height" value="2112" />
@@ -4962,19 +4975,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.testing.js">
+  <component name="RunManager" selected="Node.js.webapp.js">
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="testing.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="testing.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="webapp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="webapp.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="Node.js.testing.js" />
+      <item itemvalue="Node.js.webapp.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.webapp.js" />
         <item itemvalue="Node.js.testing.js" />
         <item itemvalue="Node.js.index.js" />
       </list>
@@ -5062,23 +5080,37 @@
       <option name="project" value="LOCAL" />
       <updated>1535303283916</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added web GUI files">
+      <created>1536087809185</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1536087809185</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added functions to return HTML for homepage based off devices JSON">
+      <created>1536096024185</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1536096024185</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12966000" />
+    <option name="totallyTimeSpent" value="18322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="0" width="1294" height="1408" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980111" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12371946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3317647" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3945098" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -5087,7 +5119,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3262745" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -5106,78 +5138,80 @@
     <MESSAGE value="updated logic for account validity, uses promises" />
     <MESSAGE value="Added usage instructions" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Added web GUI files" />
+    <MESSAGE value="Added functions to return HTML for homepage based off devices JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functions to return HTML for homepage based off devices JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>52</line>
+          <line>65</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>53</line>
+          <line>66</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.js</url>
-          <line>79</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.js</url>
-          <line>78</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/index.js</url>
-          <line>98</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
           <line>100</line>
           <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.js</url>
+          <line>99</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.js</url>
+          <line>122</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.js</url>
+          <line>124</line>
+          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>101</line>
+          <line>125</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>97</line>
+          <line>121</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>95</line>
+          <line>119</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>96</line>
+          <line>120</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>94</line>
+          <line>118</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <line>93</line>
+          <line>117</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="102" />
         </line-breakpoint>
@@ -5198,6 +5232,66 @@
           <line>24</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>46</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>47</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>48</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>53</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>65</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>66</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>67</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views.js</url>
+          <line>45</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/webapp.js</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/webapp.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -5227,25 +5321,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+        <state relative-caret-position="2244">
+          <caret line="132" column="131" selection-start-line="132" selection-start-column="131" selection-end-line="132" selection-end-column="131" />
         </state>
       </provider>
     </entry>
